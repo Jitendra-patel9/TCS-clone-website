@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Ubuntu&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family:'Ubuntu', sans-serif;
+}
+.logo{
+  height: 55px;
+}
+.navbar{
+  background-color: #0d0b1a;
+}
+.nav-item {
+    margin: 0 43px;
+    font-family: 'Baloo Bhai 2';
+    font-size: 122%;
+}
+ul.navbar-b{
+  text-align: center;
+}
+.navbar-b li {
+  display: inline-block;
+  font-size: 19px;
+  text-align: -webkit-center;
+  padding: 0 30px;
+}
+
+
+li a{
+  color: #f5f7f5;
+}
+.extra-nav{
+  padding: 136px 0 43px 0;
+}
+.navbar-b li a{
+  padding: 0px 47px;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2';
+}
+.navbar-b li a:hover{
+  text-decoration:underline;
+  color: white;
+}
+.snap-img{
+  height: 85px;
+  display: block;
+  cursor: pointer;
+}
+
+.carousel .carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+#blacky{
+  background-color: black;
+}
+
+.testimonials{
+  text-align:-webkit-center;
+  padding: 70px 0px;
+}
+.testimonials .row{
+  width: 100%;
+}
+.card.first{
+  width: 70%;
+  border:none;
+}
+.card:hover{
+  cursor: pointer;
+}
+.card-body.first{
+  background: #191A19;
+}
+.card-text.first{
+  color: white;
+  font-family: 'Baloo Bhai 2';
+}
+
+.background-img{
+  background-image: url("../images/back.jpg");
+  background-color: #cccccc;
+height: 450px;
+background-repeat: no-repeat;
+background-size: cover;
+text-align:center;
+}
+.background-img h1{
+  color: white;
+  font-family: 'Baloo Bhai 2';
+  margin: 31px 0;
+}
+.back-content{
+  padding: 165px 0px 0px 0px;
+  font-family: 'Baloo Bhai 2';
+}
+
+.card.second{
+  width: 70%;
+}
+.features{
+  text-align:-webkit-center;
+  padding: 70px 0px;
+}
+.features .row{
+  width: 100%;
+}
+.card-text.second{
+  color: black;
+  font-family: 'Baloo Bhai 2';
+}
+.card-body.second h3,p{
+  font-family: 'Baloo Bhai 2';
+  color: #396EB0;
+}
+.card-p{
+  color: #191A19;
+  font-style: italic;
+}
+
+
+.tune-content{
+  background-image: url("../images/tune.jpg");
+  background-color: #cccccc;
+height: 450px;
+background-repeat: no-repeat;
+background-size: cover;
+text-align:center;
+}
+.tune-items{
+  text-align: center;
+  font-family: 'Baloo Bhai 2';
+  padding: 230px 0;
+  color: white;
+}
+.tune-items h5,h6{
+  font-weight: bold;
+}
+.btn-secondary {
+    background-color: #090910;
+    border-color: #090910;
+}
+
+.footer-content{
+  text-align: center;
+  padding: 50px 0 0 0 ;
+  font-family: 'Baloo Bhai 2';
+}
+.social-icons{
+  padding: 30px 0;
+}
+.social-icons a{
+  padding: 0 17px;
+  font-size: 27px;
+}
+.btn-light{
+  background-color: #EFEFEF;
+}

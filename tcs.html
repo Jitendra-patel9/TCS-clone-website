@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TCS clone</title>
+
+    <!-------font awesome cdn--------->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--css linking sheet-->
+        <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+<section id="blacky">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#address">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Register yourself</a></li>
+            <li><a class="dropdown-item" href="#">Jobs</a></li>
+            <li><a class="dropdown-item" href="#">Forum</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+
+    <div class="extra-nav">
+    <div class="mid">
+           <ul class="navbar-b">
+             <li>
+                 <img class="snap-img" src="images/music.png">
+                 <a class="active" href="#">Hearing is believing</a>
+             </li>
+             <li>
+               <img class="snap-img" src="images/fas.png">
+               <a href="#">A fashionable partnership</a>
+             </li>
+             <li>
+               <img class="snap-img" src="images/baby.png">
+               <a href="#">Baby and the biome</a>
+             </li>
+             <li>
+               <img class="snap-img" src="images/world.png">
+               <a href="#">Run the world</a>
+             </li>
+
+           </ul>
+         </div>
+
+       </div>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="images/1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>See best in you</h4>
+            <p>See the change you want to be.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Meaning is everything</h4>
+            <p>Meaning tech that meets your moment</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Meaning is everything</h4>
+            <p>Satisfy your knowledge</p>
+          </div>
+        </div>
+        <div class="carousel-item"  data-bs-interval="3000">
+          <img src="images/4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Meaning is everything</h4>
+            <p>Are you ready to bulid on beilef</p>
+          </div>
+        </div>
+        <div class="carousel-item"  data-bs-interval="3000">
+          <img src="images/5.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Meaning is everything</h4>
+            <p>Are you ready to bulid on beilef</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section>
+      <div class="testimonials">
+
+
+        <div class="row">
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card first">
+              <img class="card-img-top" src="images/test1.jpg" alt="Card image cap">
+              <div class="card-body first">
+                <p class="card-text first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card first">
+              <img class="card-img-top" src="images/test2.jpg" alt="Card image cap">
+              <div class="card-body first">
+                <p class="card-text first">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card first">
+              <img class="card-img-top" src="images/test3.jpg" alt="Card image cap">
+              <div class="card-body first">
+                <p class="card-text first">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</section>
+
+<section id="back">
+  <div class="background-img">
+    <div class="back-content">
+    <h1>Our strength lies in our differences</h1>
+    <button type="button" class="btn btn-primary btn-lg">We're better together</button>
+    </div>
+  </div>
+</section>
+
+<section id="features-section">
+  <div class="features">
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card second">
+          <img class="card-img-top" src="images/test1.jpg" alt="Card image cap">
+          <div class="card-body second">
+            <h3 class="card-text second">We bring our whole self to work</h3>
+            <p>Diversity & lnclusion</p>
+            <p class="card-p">Steady steps ahead in our commitment to inclusion without exception</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card second">
+          <img class="card-img-top" src="images/test2.jpg" alt="Card image cap">
+          <div class="card-body second">
+            <h3 class="card-text second">We believe children are our future</h3>
+            <p>Empowering Education</p>
+            <p class="card-p">Creating new horizons for the STEM leaders of tomorrow</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card second">
+          <img class="card-img-top" src="images/test3.jpg" alt="Card image cap">
+          <div class="card-body second">
+            <h3 class="card-text second">We are your beta version</h3>
+            <p>The TCS Way</p>
+            <p class="card-p">We build for ourselves, what we strive to build for you. It's the TCS Way</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Tune-in">
+  <div class="tune-content">
+    <div class="tune-items">
+    <h2>A shout-out to the future.</h2>
+    <h6>Presented by the TCS Co-Innovation Network (TCS COINTM). Powered by TCS PACE</h6>
+    <h5>Our new podcast explores the nexus of research, academia, start-ups and big business</h5>
+    <button type="button" class="btn btn-secondary btn-lg">Tune in</button>
+    </div>
+  </div>
+</section>
+
+<section id=footer>
+  <div class="footer-content">
+    <a href="#carouselExampleCaptions"><div class="footer-btn"><button type="button" class="btn btn-light"><i class="fas fa-arrow-up"></i> To the top</button></div></a>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/jitu.patel.99811"><i class="fab icons fa-facebook-square"></i></a>
+      <a href="https://www.linkedin.com/in/jitendra-patel-94b8b3193/"><i class="fab icons fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/jeetu_oi/"><i class="fab icons fa-instagram"></i></a>
+      <a href="https://twitter.com/Jitendr82608564"><i class="fab icons fa-twitter"></i></a>
+      <a href=""><i class="fas icons fa-envelope"></i></a>
+    </div>
+    <p class="copyright">Copyright &copy; 2027 www.TCS-clone.com - All rights reserved</p>
+  </div>
+</section>
+
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
